@@ -44,7 +44,10 @@ const Hero: React.FC = () => {
             <span className="text-yellow-300 drop-shadow-lg">Ріоліт</span>
             <br />
             <span className="text-4xl md:text-5xl font-light text-gray-200">
-              мономентна майстерня
+              <h1>
+                Пам'ятники на цвинтарі в Запоріжжі — виготовлення та
+                встановлення
+              </h1>
             </span>
           </h1>
 
