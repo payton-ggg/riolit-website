@@ -7,7 +7,7 @@ const Gallery: React.FC = () => {
 
   const monuments = [
     {
-      category: "Гравіювання",
+      category: "Гравірування",
       images: [
         "/IMG_3952.JPG",
         "/IMG_3951.JPG",
@@ -18,7 +18,7 @@ const Gallery: React.FC = () => {
       ],
     },
     {
-      category: "Моделювання ",
+      category: "Моделювання",
       images: [
         "/IMG_3947.JPG",
         "/IMG_3948.JPG",
