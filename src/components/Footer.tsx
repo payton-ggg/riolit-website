@@ -37,17 +37,11 @@ const Footer: React.FC = () => {
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-yellow-400" />
                 <div>
-                  <a
-                    href={viberLink("+380967081858")}
-                    className="text-gray-600"
-                  >
+                  <a href={viberLink("+380967081858")} className="text-white">
                     +380 (96) 708 18 58
                   </a>
                   <br />
-                  <a
-                    href={viberLink("+380967410940")}
-                    className="text-gray-600"
-                  >
+                  <a href={viberLink("+380967410940")} className="text-white">
                     +380 (96) 741 09 40
                   </a>
                 </div>
