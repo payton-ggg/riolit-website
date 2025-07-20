@@ -2,6 +2,8 @@ import React from "react";
 import { Phone, MapPin, Clock } from "lucide-react";
 
 const Footer: React.FC = () => {
+  const viberLink = (phone: string) => `viber://chat?number=${phone}`;
+
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="container mx-auto px-4">
@@ -35,8 +37,18 @@ const Footer: React.FC = () => {
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-yellow-400" />
                 <div>
-                  <p>+380 (96) 708 18 58</p>
-                  <p>+380 (96) 741 09 40</p>
+                  <a
+                    href={viberLink("+380967081858")}
+                    className="text-gray-600"
+                  >
+                    +380 (96) 708 18 58
+                  </a>
+                  <a
+                    href={viberLink("+380967410940")}
+                    className="text-gray-600"
+                  >
+                    +380 (96) 741 09 40
+                  </a>
                 </div>
               </div>
               <div className="flex items-center space-x-3">

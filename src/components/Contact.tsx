@@ -2,9 +2,7 @@ import React from "react";
 import { MapPin, Phone, Clock, Mail } from "lucide-react";
 
 const Contact: React.FC = () => {
-  const phone = "+380967081858";
-  const encodedPhone = encodeURIComponent(phone);
-  const viberLink = `viber://chat?number=${encodedPhone}`;
+  const viberLink = (phone: string) => `viber://chat?number=${phone}`;
 
   return (
     <section id="contact" className="py-20 bg-white">
@@ -35,12 +33,18 @@ const Contact: React.FC = () => {
                   <h4 className="font-semibold text-gray-800 mb-2">
                     Номер телефону
                   </h4>
-                  <a href={viberLink} className="text-gray-600">
-                    +380 (96) 708 18 58
+                  <a
+                    href={viberLink("+380967081858")}
+                    className="text-gray-600"
+                  >
+                    +380967081858
                   </a>
                   <br />
-                  <a href={viberLink} className="text-gray-600">
-                    +380 (96) 741 09 40
+                  <a
+                    href={viberLink("+380967410940")}
+                    className="text-gray-600"
+                  >
+                    +380967410940
                   </a>
                 </div>
               </div>
