@@ -42,7 +42,7 @@ const Header: React.FC = () => {
           <div className="flex items-center space-x-3">
             <img
               src="/logo.png"
-              alt="Pantheon"
+              alt="Установка памятника на могиле"
               className="w-12 h-12 rounded-full flex items-center justify-center"
             />
             <div>

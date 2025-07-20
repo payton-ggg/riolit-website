@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
         <div className="mb-12 animate-fade-in">
           <img
             src="/logo-yellow.png"
-            alt="Riolit"
+            alt="Гравировка на памятнике с портретом"
             className="w-24 h-24 text-white drop-shadow-lg bg-gradient-to-br rounded-full flex items-center justify-center mx-auto mb-8 shadow-2xl transform hover:scale-105 transition-transform duration-300 max-lg:hidden"
           />
 

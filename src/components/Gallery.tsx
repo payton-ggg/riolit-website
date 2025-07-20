@@ -70,7 +70,9 @@ const Gallery: React.FC = () => {
                   >
                     <img
                       src={image}
-                      alt={`${category.category} ${imageIndex + 1}`}
+                      alt={`Гранитный памятник на кладбище Киев Установка памятника на могиле ${
+                        imageIndex + 1
+                      }`}
                       className="w-full h-[600px] object-cover transition-transform duration-300 group-hover:scale-110"
                       onClick={() => openLightbox(globalIndex)}
                     />
