@@ -43,6 +43,7 @@ const Footer: React.FC = () => {
                   >
                     +380 (96) 708 18 58
                   </a>
+                  <br />
                   <a
                     href={viberLink("+380967410940")}
                     className="text-gray-600"
