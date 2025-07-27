@@ -30,7 +30,7 @@ const Services: React.FC = () => {
         "Довічна структурна гарантія",
       ],
       image: "/1.1.jpg",
-      price: "Від 2 500$",
+      price: "Від 8000₴",
     },
     {
       icon: <PenTool className="w-10 h-10 text-yellow-600" />,
@@ -46,7 +46,7 @@ const Services: React.FC = () => {
         "Точний контроль глибини",
       ],
       image: "1.2.jpg",
-      price: "Від 800$",
+      price: "Включно, індивідуальні розрахунки",
     },
     {
       icon: <Truck className="w-10 h-10 text-yellow-600" />,
@@ -62,7 +62,7 @@ const Services: React.FC = () => {
         "Налаштування дренажу та обслуговування",
       ],
       image: "/1.3.jpg",
-      price: "Від 1 200$",
+      price: "Включно, індивідуальні розрахунки",
     },
     {
       icon: <Wrench className="w-10 h-10 text-yellow-600" />,
@@ -78,7 +78,7 @@ const Services: React.FC = () => {
         "Нанесення захисного покриття",
       ],
       image: "/1.4.webp",
-      price: "Від 600$",
+      price: "Включно, індивідуальні розрахунки",
     },
   ];
 
